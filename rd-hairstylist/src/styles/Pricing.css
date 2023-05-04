@@ -1,0 +1,96 @@
+.pricing-container{
+    padding: 10vmin;
+    font-family: 'PPMori';
+}
+.pricing-container h2{
+    font-size: 2.4vmin;
+    line-height: 4vmin;
+}
+.pricing-container h3{
+    font-size: 2.2vmin;
+    line-height: 5vmin;
+}
+
+/* display flex for container */
+.pricing-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* space between upper and middle sections */
+.pricing-note{
+    padding-bottom: 10vmin;
+}
+
+/* flex for three boxes with services + price */
+.pricing-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8vmin;
+}
+
+/* font size for three price boxes */
+.pricing-list li{
+    list-style-type: none;
+}
+.pricing-list span{
+    font-size: 1.7vmin;
+}
+.pricing-note p,.pricing-list li{
+    font-size: 2vmin;
+    line-height: 5vmin;
+}
+
+/* styling for three boxes with services + price */
+.box-ht, .box-color, .box-light{
+    height: 52vmin;
+    width: 46vmin;
+    border-radius: 4vmin; 
+    border: 0.2vmin solid black;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: #d09e8b; */
+    background-color: #e2c0ae;
+    padding: 0 6vmin 0 6vmin;
+}
+
+
+/* hover effect on services boxes */
+.box-ht:hover, .box-color:hover, .box-light:hover{
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    /* transform creates illusion of box being lifted */
+    transform: translateY(-5px);
+}
+
+/*  text styling for services + price */
+.box-ht h3, .box-color h3, .box-light h3{
+    text-align: center;
+}
+.right{
+    float: right;
+}
+
+/* code for flex gap, since not supported in old safari */
+/* .box-color, .box-light{
+    margin-left: 7vmin;
+} */
+
+/* code for flex gap, since not supported in old safari */
+/* @media only screen and (max-width: 1040px) {
+    .pricing-list{
+        flex-direction: column;
+    }
+    .box-ht,.box-color, .box-light{
+        margin: 0 0 7vmin 0;
+    }
+} */
+
+
+
