@@ -29,13 +29,13 @@ function Gallery() {
           <img className="fifth" src={imageFive} alt="long light brown hair" />
         </div>
         <div className="row">
-          <img src={imageSix} />
+          <img src={imageSix} alt="dark hair with light red highlights" />
           <img src={imageSeven} alt="short dark brown hair" />
           <img src={imageEight} alt="bright pink hair" />
           <img
             className="fourth"
             src={imageNine}
-            alt="dark hair with light red highlights"
+            alt="dark hair with orange tips"
           />
           <img
             className="fifth"
