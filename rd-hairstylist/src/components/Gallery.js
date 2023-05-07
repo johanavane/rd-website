@@ -18,18 +18,30 @@ function Gallery() {
 
       <div className="gallery-flex">
         <div className="row">
-          <img src={imageOne} />
-          <img src={imageTwo} />
-          <img src={imageThree} />
-          <img className="fourth" src={imageFour} />
-          <img className="fifth" src={imageFive} />
+          <img src={imageOne} alt="short light brown hair with blonde bangs" />
+          <img src={imageTwo} alt="short blue hair" />
+          <img src={imageThree} alt="cheetah print buzz cut" />
+          <img
+            className="fourth"
+            src={imageFour}
+            alt="long auburn hair with blonde bangs"
+          />
+          <img className="fifth" src={imageFive} alt="long light brown hair" />
         </div>
         <div className="row">
           <img src={imageSix} />
-          <img src={imageSeven} />
-          <img src={imageEight} />
-          <img className="fourth" src={imageNine} />
-          <img className="fifth" src={imageTen} />
+          <img src={imageSeven} alt="short dark brown hair" />
+          <img src={imageEight} alt="bright pink hair" />
+          <img
+            className="fourth"
+            src={imageNine}
+            alt="dark hair with light red highlights"
+          />
+          <img
+            className="fifth"
+            src={imageTen}
+            alt="black hair with blonde bangs "
+          />
         </div>
       </div>
     </div>
