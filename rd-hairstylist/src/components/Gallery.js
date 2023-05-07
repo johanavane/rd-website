@@ -21,22 +21,14 @@ function Gallery() {
           <img src={imageOne} alt="short light brown hair with blonde bangs" />
           <img src={imageTwo} alt="short blue hair" />
           <img src={imageThree} alt="cheetah print buzz cut" />
-          <img
-            className="fourth"
-            src={imageFour}
-            alt="long auburn hair with blonde bangs"
-          />
+          <img src={imageFour} alt="long auburn hair with blonde bangs" />
           <img className="fifth" src={imageFive} alt="long light brown hair" />
         </div>
         <div className="row">
           <img src={imageSix} alt="dark hair with light red highlights" />
           <img src={imageSeven} alt="short dark brown hair" />
           <img src={imageEight} alt="bright pink hair" />
-          <img
-            className="fourth"
-            src={imageNine}
-            alt="dark hair with orange tips"
-          />
+          <img src={imageNine} alt="dark hair with orange tips" />
           <img
             className="fifth"
             src={imageTen}
