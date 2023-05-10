@@ -1,20 +1,32 @@
 import React from "react";
 import "../styles/Home.css";
+import brownHair from "../images/brown-hair.png";
+import colorfulHair from "../images/colorful-hair.png";
 
 function Home() {
   return (
     <div className="home-container">
-      {/* <section className="home-slogan">
+      <section className="home-slogan">
         <h1>
           Cool color <br /> for cool <br />
           people.
         </h1>
-        <button>schedule</button>
+        <button>
+          <span>schedule</span>
+        </button>
       </section>
       <section className="home-images">
-        <span>image1</span>
-        <span>image2</span>
-      </section> */}
+        <img
+          src={brownHair}
+          className="image-top"
+          alt="dark brown hair with light brown highlights"
+        />
+        <img
+          src={colorfulHair}
+          className="image-bottom"
+          alt="silver hair with colorful highlights"
+        />
+      </section>
     </div>
   );
 }
