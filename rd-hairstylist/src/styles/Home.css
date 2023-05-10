@@ -5,20 +5,19 @@
     flex-wrap: wrap-reverse;
     justify-content: center;
     align-items: center;
-    padding: 10vmin;
+    padding: 10vmin 4vmin 10vmin 4vmin;
+    gap: 10vmin;
 }
 
 .home-slogan{
-    flex: 1 1 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5vmin;
 }
 
 .home-slogan h1{
     color: whitesmoke;
-    font-size: 13.5vmin;
+    font-size: 13.4vmin;
     padding-bottom: 5vmin;
     margin: 0px;
 }
@@ -30,13 +29,12 @@
 .home-slogan button{
     height: 6.5vmin;
     width: 12.5vmin;
-    border: none;
+    border: 0.3vmin solid black;
     border-radius: 2vmin;
     background-color: #1d4130;
 }
 
 .home-images{
-    flex: 1 1 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,7 +43,7 @@
 
 .home-images img{
     height: 45vmin;
-    width: 45vmin;
+    width: 43vmin;
     border-radius: 1.5vmin; 
     border: 0.3vmin solid black;
     padding: 2vmin;
@@ -58,6 +56,15 @@ img.image-bottom{
     margin-top: 16vmin;
 }
 
-
-
-
+@media only screen and (max-width: 1200px) {
+    .home-container{
+        padding-left: 10vmin;
+        padding-right: 10vmin;
+    }
+    .home-slogan{
+        text-align: center;
+    }
+    .break-hide{
+        display: none;
+    }
+} 

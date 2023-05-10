@@ -8,7 +8,8 @@ function Home() {
     <div className="home-container">
       <section className="home-slogan">
         <h1>
-          Cool color <br /> for cool <br />
+          Cool color <br className="break-hide" /> for cool{" "}
+          <br className="break-hide" />
           people.
         </h1>
         <button>
