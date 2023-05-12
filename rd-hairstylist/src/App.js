@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Pricing from "./components/Pricing";
 import Gallery from "./components/Gallery";
 import Schedule from "./components/Schedule";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Pricing />
       <Gallery />
       <Schedule />
+      <Footer />
     </div>
   );
 }
