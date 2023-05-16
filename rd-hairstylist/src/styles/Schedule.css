@@ -1,0 +1,51 @@
+.schedule-container{
+    background-color: #eeede5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5vmin;
+    justify-content: center;
+    padding: 8.5vmin;
+}
+
+/* font size */
+.schedule-container h2{
+    font-size: 2.5vmin;
+    line-height: 4vmin;
+    text-align: center;
+    margin-bottom: 3vmin;
+}
+.schedule-container p, li{
+    font-size: 2.2vmin;
+    line-height: 3.3vmin;
+}
+.schedule-container h3{
+    font-size: 2.3vmin;
+    margin-bottom: 1.5vmin;
+}
+/* left indent for lists */
+.schedule-container li{
+    margin-left: 2vmin;
+    list-style: circle;
+}
+
+/* box for schedule + box for policies */
+.schedule, .policies{
+    width: 60vmin;
+    border-radius: 4vmin; 
+    border: 0.4vmin solid #1d4130;
+    padding: 5vmin; 
+}
+
+.deposits, .consults{
+    margin-bottom: 6vmin;
+}
+
+.schedule p{
+    margin-bottom: 1.8vmin;
+}
+p.consult-info{
+    margin-bottom: .5vmin;
+}
+
+
