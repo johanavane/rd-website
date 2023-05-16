@@ -1,0 +1,43 @@
+.gallery-container{
+    text-align: center;
+    font-size: 0;
+}
+
+.gallery-container h4{
+    font-size: 2.5vmin;
+    padding-top: 8vmin;
+}
+
+.gallery-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 4vmin 0 10vmin 0;
+    gap: 3vmin;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vmin;
+}
+.row img{
+    height: 23vmin;
+    width: 23vmin;
+    border-radius: 1vmin; 
+} 
+
+@media only screen and (max-width: 1000px) {
+    .row img{
+        height: 20vmin;
+        width: 20vmin;
+        border-radius: 1vmin; 
+    } 
+} 
+
+@media only screen and (max-width: 900px) {
+    .fifth{
+        display: none;
+    }
+} 

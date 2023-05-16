@@ -13,9 +13,8 @@ import imageTen from "../images/hair-ten.png";
 
 function Gallery() {
   return (
-    <div className="gallery-container">
-      <h4>follow @racheldepillo on instagram</h4>
-
+    <div className="gallery-container" id="gallery">
+      <h4>follow @racheldepillo on instagram for more!</h4>
       <div className="gallery-flex">
         <div className="row">
           <img src={imageOne} alt="short light brown hair with blonde bangs" />

@@ -7,7 +7,7 @@ import imageLightening from "../images/lightening.png";
 
 function Services() {
   return (
-    <div className="services-container">
+    <div className="services-container" id="services">
       <div className="services-flexbox">
         <section className="haircuts">
           <img src={imageHaircuts} />

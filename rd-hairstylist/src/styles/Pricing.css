@@ -9,6 +9,7 @@
 .pricing-container h3{
     font-size: 2.2vmin;
     line-height: 5vmin;
+    color: #eeede5;
 }
 
 /* display flex for container */
@@ -37,9 +38,11 @@
 /* font size for three price boxes */
 .pricing-list li{
     list-style-type: none;
+    color: #eeede5;
 }
 .pricing-list span{
     font-size: 1.7vmin;
+    color: #eeede5;
 }
 .pricing-note p,.pricing-list li{
     font-size: 2vmin;
@@ -57,7 +60,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     /* background-color: #d09e8b; */
-    background-color: #e2c0ae;
+    /* background-color: #e2c0ae; */
+    background-color: #526b53;
+    /* background-color: #a1856e; */
     padding: 0 6vmin 0 6vmin;
 }
 

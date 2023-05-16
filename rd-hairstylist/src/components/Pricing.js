@@ -3,7 +3,7 @@ import "../styles/Pricing.css";
 
 function Pricing() {
   return (
-    <div className="pricing-container">
+    <div className="pricing-container" id="pricing">
       <div className="pricing-flex">
         <section className="pricing-note">
           <h2>PRICING</h2>

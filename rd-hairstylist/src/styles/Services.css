@@ -5,8 +5,8 @@
 
 .services-container{
     background-color: #eeede5;
-    height: 24vmin;
     font-family: 'PPMori';
+    padding: 4vmin;
 }
 
 .services-container span{
