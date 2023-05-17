@@ -11,7 +11,7 @@
     line-height: 4vmin;
 }
 .pricing-container h3{
-    font-size: 2.4vmin;
+    font-size: 2.6vmin;
     margin-top: 3vmin;
     color: #eeede5;
 }
@@ -43,7 +43,7 @@
     line-height: 5vmin;
 }
 .pricing-boxes li{
-    margin-bottom: 3vmin;
+    margin-bottom: 2.5vmin;
 }
 
 li.needs-info{
@@ -81,21 +81,4 @@ li.add-info{
 .right{
     float: right;
 }
-
-/* code for flex gap, since not supported in old safari */
-/* .box-color, .box-light{
-    margin-left: 7vmin;
-} */
-
-/* code for flex gap, since not supported in old safari */
-/* @media only screen and (max-width: 1040px) {
-    .pricing-list{
-        flex-direction: column;
-    }
-    .box-ht,.box-color, .box-light{
-        margin: 0 0 7vmin 0;
-    }
-} */
-
-
 
