@@ -28,13 +28,13 @@
     width: 6.5vmin;
 }
 
-.haircuts, .treatments, .color, .lightening{
+.treatments, .color, .lightening{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.haircuts img, .treatments img, .color img, .lightening img{
+.treatments img, .color img, .lightening img{
     padding-bottom: 3vmin;
 }
 

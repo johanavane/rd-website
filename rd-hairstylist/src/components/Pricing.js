@@ -21,23 +21,14 @@ function Pricing() {
       </section>
       <section className="pricing-boxes">
         <div className="box-haircuts">
-          <h3>HAIRCUTS & TREATMENTS</h3>
+          <h3>TREATMENTS</h3>
           <ul>
-            <li>
-              Haircuts <span className="right">$75</span>
-            </li>
-            <li>
-              Fringe Trim <span className="right">$15</span>
-            </li>
-            <li>
-              Trim Added Onto Color Service <span className="right">$50</span>
-            </li>
             <div>
               <li className="needs-info">
-                Conditioning Treatment <span className="right">$35-$100</span>
+                Conditioning Treatments <span className="right">$35-$100</span>
               </li>
               <li className="add-info">
-                Price depends on treatment <br /> choice.
+                Price depends on treatment <br /> choice & hair needs.
               </li>
             </div>
             <li>
@@ -50,7 +41,7 @@ function Pricing() {
           <ul>
             <div>
               <li className="needs-info">
-                Full Head Balayage <span className="right">$280</span>
+                Full Head Balayage <span className="right">$280+</span>
               </li>
               <li className="add-info">Including ends.</li>
             </div>
@@ -76,7 +67,7 @@ function Pricing() {
               <li className="needs-info">
                 Face-frame Highlights <span className="right">$50+</span>
               </li>
-              <li className="add-info">Touch up only.</li>
+              <li className="add-info">Money piece touch up only.</li>
             </div>
           </ul>
         </div>
@@ -90,13 +81,30 @@ function Pricing() {
               <li className="needs-info">
                 All Over Color <span className="right">$135+</span>
               </li>
-              <li className="add-info">Not a lightening service</li>
+              <li className="add-info">Not a lightening service.</li>
             </div>
             <li>
               Toner With Blow Dry/Style <span className="right">$85</span>
             </li>
             <li>
               Base With Toner <span className="right">$120</span>
+            </li>
+            <li>
+              Transformational Color <span className="right">$90/hour</span>
+            </li>
+            <div>
+              <li className="needs-info">
+                Vivid Color <span className="right">$90/hour</span>
+              </li>
+              <li className="add-info">
+                Including any lightening needed <br /> to achieve result.
+              </li>
+            </div>
+            <li>
+              Color Corrections <span className="right">$100/hour</span>
+            </li>
+            <li className="needs-info">
+              Buzz Cut Art <span className="right">TBD</span>
             </li>
           </ul>
         </div>

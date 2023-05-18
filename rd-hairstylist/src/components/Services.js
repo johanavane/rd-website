@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Services.css";
-import imageHaircuts from "../images/haircuts.png";
 import imageTreatments from "../images/treatments.png";
 import imageColor from "../images/color.png";
 import imageLightening from "../images/lightening.png";
@@ -9,10 +8,6 @@ function Services() {
   return (
     <div className="services-container" id="services">
       <div className="services-flexbox">
-        <section className="haircuts">
-          <img src={imageHaircuts} />
-          <span>Haircuts</span>
-        </section>
         <section className="treatments">
           <img src={imageTreatments} />
           <span>Treatments</span>
