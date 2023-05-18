@@ -3,7 +3,7 @@ import "../styles/Schedule.css";
 
 function Schedule() {
   return (
-    <div className="schedule-container">
+    <div className="schedule-container" id="schedule">
       {/* first box with shceduling info ------------------- */}
       <section className="schedule">
         <h2>SCHEDULE</h2>

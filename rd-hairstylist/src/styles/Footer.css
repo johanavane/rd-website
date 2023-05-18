@@ -4,7 +4,7 @@
     flex-direction: row;
     gap: 20vmin;
     justify-content: space-evenly;
-    padding: 8vmin;
+    padding: 6vmin;
 }
 
 .footer-container span, .footer-container a{

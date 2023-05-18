@@ -13,7 +13,7 @@ function Home() {
           people.
         </h1>
         <button>
-          <span>schedule</span>
+          <a href="#schedule">Schedule</a>
         </button>
       </section>
       <section className="home-images">

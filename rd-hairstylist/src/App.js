@@ -14,8 +14,8 @@ function App() {
       <Home />
       <Services />
       <Pricing />
-      <Gallery />
       <Schedule />
+      <Gallery />
       <Footer />
     </div>
   );
