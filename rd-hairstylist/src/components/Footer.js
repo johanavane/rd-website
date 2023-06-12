@@ -14,18 +14,31 @@ function Footer() {
         </a>
       </section>
       <section className="column">
-        <span>Services</span>
-        <span>Policies</span>
-        <span>Schedule</span>
+        <span>By Appointment Only</span>
+        <span>Tuesday - Saturday</span>
+        <span>9:30am - 3:30pm</span>
+      </section>
+      <section className="column">
+        <a className="footer-link" href="#pricing">
+          Services
+        </a>
+        <a className="footer-link" href="#schedule">
+          Schedule
+        </a>
+        <a className="footer-link" href="#schedule">
+          Policies
+        </a>
       </section>
       <section className="column">
         <a
-          className="instagram"
+          className="footer-link"
           href="https://www.instagram.com/racheldepillo/"
         >
           Instagram
         </a>
-        <span>Contact</span>
+        <a className="footer-link" href="https://s.yelp.com/SUtBOgL2Vg">
+          Yelp
+        </a>
       </section>
     </div>
   );
