@@ -8,44 +8,39 @@
     padding: 8.5vmin;
 }
 
-/* font size */
+/* font size ------------------ */
 .schedule-container h2{
-    font-size: 2.5vmin;
+    font-size: 2.6vmin;
     line-height: 4vmin;
     text-align: center;
     margin-bottom: 3vmin;
 }
 .schedule-container p, li{
     font-size: 2.2vmin;
-    line-height: 3.3vmin;
+    line-height: 3.8vmin;
 }
-.schedule-container h3{
-    font-size: 2.3vmin;
-    margin-bottom: 1.5vmin;
-}
-/* left indent for lists */
+/* left indent for lists ---------- */
 .schedule-container li{
     margin-left: 2vmin;
     list-style: circle;
 }
 
 /* box for schedule + box for policies */
-.schedule, .policies{
-    width: 60vmin;
+.schedule-box{
+    width: 40vmin;
     border-radius: 4vmin; 
     border: 0.4vmin solid #1d4130;
     padding: 5vmin; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    /* margin-bottom: 6vmin; */
 }
 
-.deposits, .consults{
-    margin-bottom: 6vmin;
+p.phone-number{
+    margin-top: 4vmin;
 }
 
-.schedule p{
-    margin-bottom: 1.8vmin;
-}
-p.consult-info{
-    margin-bottom: .5vmin;
-}
 
 
