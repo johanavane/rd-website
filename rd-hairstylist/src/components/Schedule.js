@@ -6,20 +6,26 @@ function Schedule() {
     <div className="schedule-container" id="schedule">
       {/* new clients box info ------------------- */}
       <section className="schedule-box schedule">
-        <h2>NEW CLIENTS</h2>
+        <h2>New Clients</h2>
         <div>
-          <p>Thank you so much for choosing me for your hair needs!</p>
+          <p>Thank you so much for choosing me for your hair needs.</p>
           <p>
             New clients, please schedule a 15-30 minute in-person consultation
             for a personalized discussion about your hair.
+          </p>
+          <p>
+            This will also help me get to know you, I look forward to meeting
+            you!
           </p>
         </div>
       </section>
       {/* consulations box info ------------------- */}
       <section className="schedule-box consults">
-        <h2>CONSULTATIONS</h2>
+        <h2>Consultations</h2>
         <div>
-          <p className="consult-info">For consultations, provide:</p>
+          <p className="consult-info">
+            To schedule a consultation, text (949)302-2748 and include:
+          </p>
           <ul>
             <li>Full name.</li>
             <li>2-3 years of hair history (professional and at home color).</li>
@@ -27,14 +33,11 @@ function Schedule() {
             <li>2-3 inspiration photos of desired hair goals.</li>
             <li>Availability (Tuesday - Saturday).</li>
           </ul>
-          <p className="phone-number">
-            To schedule send a text to (949) 302-2748. No calls please.
-          </p>
         </div>
       </section>
       {/* deposits box info -------------------- */}
       <section className="schedule-box deposits">
-        <h2>DEPOSITS</h2>
+        <h2>Deposits</h2>
         <div>
           <ul>
             <li>
@@ -54,7 +57,7 @@ function Schedule() {
       </section>
       {/* cancellations box info --------------- */}
       <section className="schedule-box cancellations">
-        <h2>CANCELLATIONS</h2>
+        <h2>Cancellations</h2>
         <div>
           <ul>
             <li>
