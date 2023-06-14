@@ -1,23 +1,23 @@
 .schedule-container{
     background-color: #eeede5;
+    /* background-color: #526b53; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 5vmin;
+    gap: 4vmin;
     justify-content: center;
     padding: 8.5vmin;
 }
 
 /* font size ------------------ */
 .schedule-container h2{
-    font-size: 2.6vmin;
-    line-height: 4vmin;
+    font-size: 2.4vmin;
     text-align: center;
-    margin-bottom: 3vmin;
+    margin-bottom: 2.8vmin;
 }
 .schedule-container p, li{
     font-size: 2.2vmin;
-    line-height: 3.8vmin;
+    line-height: 3vmin;
 }
 /* left indent for lists ---------- */
 .schedule-container li{
@@ -29,7 +29,9 @@
 .schedule-box{
     width: 40vmin;
     border-radius: 4vmin; 
-    border: 0.4vmin solid #1d4130;
+    /* border: 0.4vmin solid #1d4130; */
+    /* background-color: #cea4a9; */
+    background-color: whitesmoke;
     padding: 5vmin; 
     display: flex;
     flex-direction: column;
@@ -39,7 +41,7 @@
 }
 
 p.phone-number{
-    margin-top: 4vmin;
+    margin-top: 2vmin;
 }
 
 
