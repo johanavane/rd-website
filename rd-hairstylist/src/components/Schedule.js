@@ -24,7 +24,7 @@ function Schedule() {
         <h2>Consultations</h2>
         <div>
           <p className="consult-info">
-            To schedule a consultation, text (949)302-2748 and include:
+            To schedule a consultation, please text (949)302-2748 and include:
           </p>
           <ul>
             <li>Full name.</li>
@@ -66,9 +66,9 @@ function Schedule() {
             </li>
             <li>No re-booking for no calls/no shows.</li>
             <li>
-              If running late, please notify me. Appointments rescheduled after
-              a 20-minute grace period, and a $50 nonrefundable payment will be
-              collected.
+              If running late, please notify me. Appointments are rescheduled
+              after a 20-minute grace period, and a $50 nonrefundable payment
+              will be collected.
             </li>
           </ul>
         </div>
