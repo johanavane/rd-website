@@ -4,78 +4,71 @@ import "../styles/Schedule.css";
 function Schedule() {
   return (
     <div className="schedule-container" id="schedule">
-      {/* first box with shceduling info ------------------- */}
-      <section className="schedule">
-        <h2>SCHEDULE</h2>
-        <div className="consults">
-          <h3>Consultations</h3>
-          <p>
-            I offer 15–30 minute in-person consultations for new clients who
-            want to visit the salon, help me get to know them, and speak in
-            person about their hair.
-          </p>
-          <p className="consult-info">
-            Before reaching out about consultations please have the following
-            information:
-          </p>
-          <ul>
-            <li>First and last name.</li>
-            <li>
-              2-3 years of hair history, including both professional and at home
-              color.
-            </li>
-            <li>Front and back photos of current hair.</li>
-            <li>2-3 inspiration photos of your ideal hair goals.</li>
-            <li>Your availability Tuesday - Saturday.</li>
-          </ul>
-        </div>
+      {/* new clients box info ------------------- */}
+      <section className="schedule-box schedule">
+        <h2>New Clients</h2>
         <div>
+          <p>Thank you so much for choosing me for your hair needs.</p>
           <p>
-            Please note a $50 non-refundable deposit is required to book your
-            appointment. Thank you!
+            New clients, please schedule a 15-30 minute in-person consultation
+            for a personalized discussion about your hair.
           </p>
           <p>
-            To schedule a consulation please send a text message to (949)
-            302-2748.
+            This will also help me get to know you, I look forward to meeting
+            you!
           </p>
         </div>
       </section>
-      {/* second box with policies info -------------------- */}
-      <section className="policies">
-        <h2>POLICIES</h2>
-        <div className="deposits">
-          <h3>Deposits</h3>
+      {/* consulations box info ------------------- */}
+      <section className="schedule-box consults">
+        <h2>Consultations</h2>
+        <div>
+          <p className="consult-info">
+            To schedule a consultation, please text (949)302-2748 and include:
+          </p>
+          <ul>
+            <li>Full name.</li>
+            <li>2-3 years of hair history (professional and at home color).</li>
+            <li>Front and back photos of current hair.</li>
+            <li>2-3 inspiration photos of desired hair goals.</li>
+            <li>Availability (Tuesday - Saturday).</li>
+          </ul>
+        </div>
+      </section>
+      {/* deposits box info -------------------- */}
+      <section className="schedule-box deposits">
+        <h2>Deposits</h2>
+        <div>
           <ul>
             <li>
-              A $50 nonrefundable deposit is required for booking color service
-              appointments.
+              A $50 nonrefundable deposit is required for booking color
+              services.
             </li>
             <li>
-              New clients: If a deposit is not received on my end, your
-              appointment does not exist.
+              If a deposit is not received on my end, your appointment doesn't
+              exist.
             </li>
             <li>
-              Deposits can be made to me directly via Zelle (949) 302-2748 or
-              Venmo @racheldepillohair.
+              Deposits can be made to me via Zelle (949) 302-2748 or Venmo
+              @racheldepillohair.
             </li>
           </ul>
         </div>
-        <div className="appointments">
-          <h3>Appointments</h3>
+      </section>
+      {/* cancellations box info --------------- */}
+      <section className="schedule-box cancellations">
+        <h2>Cancellations</h2>
+        <div>
           <ul>
             <li>
-              A 48-hour cancellation notice is required for any rescheduled
-              appointments. Otherwise, a $50 cancellation fee will be charged to
-              the card on file. (Exception: first-time last-minute
-              cancellations).
+              To avoid a $50 cancellation fee (except first time occurences), a
+              48-hour notice is required for rescheduled appointments.
             </li>
+            <li>No re-booking for no calls/no shows.</li>
             <li>
-              In the event of a no call/no show, re-booking will not be allowed.
-            </li>
-            <li>
-              Please notify me if you are running late; there is a 20-minute
-              grace period. After that time, the appointment will be
-              rescheduled, and a $50 nonrefundable payment will be collected.
+              If running late, please notify me. Appointments are rescheduled
+              after a 20-minute grace period, and a $50 nonrefundable payment
+              will be collected.
             </li>
           </ul>
         </div>
