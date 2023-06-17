@@ -1,5 +1,8 @@
+/* PRICING first section ----------------------------------- */
+
+/* container for section */
 .pricing-container{
-    padding: 10vmin;
+    padding: 10vmin 0;
     font-family: 'PPMori';
     display: flex;
     flex-direction: column;
@@ -10,75 +13,118 @@
     font-size: 2.5vmin;
     line-height: 4vmin;
 }
-.pricing-container h3{
-    font-size: 2.6vmin;
-    margin-top: 3vmin;
-    color: #eeede5;
+.pricing-container p{
+    font-size: 2.3vmin;
+    line-height: 4vmin;
 }
 
-/* space between upper and middle sections */
+/* space between upper and bottom sections */
 .pricing-note{
-    padding-bottom: 10vmin;
+    padding: 0 5vmin 10vmin 5vmin;
 }
 
-/* flex for three boxes with services + price */
-.pricing-boxes{
+
+/* navbar + images & price */
+.pricing-flexbox{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 8vmin;
 }
 
-/* font size + styling for three price boxes */
-.pricing-boxes li, .pricing-boxes span{
-    font-size: 2.1vmin;
-    color: #eeede5;
-    list-style-type: none;
-
+.pricing-flexbox a,.pricing-flexbox li{
+    font-size: 2.5vmin;
+    text-decoration: none;
+    list-style: none;
+    color: black;
 }
-.pricing-note p{
-    font-size: 2.1vmin;
+
+/* right section ... images + price */
+.services-pricing{
+    height: 75vmin; 
+    width: 140vmin;
+  	overflow-y: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.services-pricing img{
+    height: 50vmin;
+    width: 48vmin;
+}
+
+/* vertically align navbar */
+.mini-nav a{
+    display: block;
     line-height: 5vmin;
 }
-.pricing-boxes li{
-    margin-bottom: 2.5vmin;
-}
 
-li.needs-info{
-    margin-bottom: 0;
-}
-li.add-info{
-    font-size: 1.9vmin;
-}
-
-/* styling for three boxes with services + price */
-.box-haircuts, .box-color, .box-light{
-    height: 70vmin;
-    width: 52vmin;
-    border-radius: 4vmin; 
-    border: 0.2vmin solid black;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+/* flexbox price */
+.price{
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: #526b53;
-    padding: 0 5vmin 0 5vmin;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14vmin;
+    padding: 8vmin 0;
+}
+.price span{
+    font-size: 2.1vmin;
 }
 
-/* hover effect on services boxes */
-.box-haircuts:hover, .box-color:hover, .box-light:hover{
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
-    /* transform creates illusion of box being lifted */
-    transform: translateY(-5px);
+.pricing-flexbox li{
+    font-size: 2.3vmin;
+    padding: 1.7vmin 0;
 }
 
-/*  text styling for services + price */
-.box-haircuts h3, .box-color h3, .box-light h3{
-    text-align: center;
+/* ------------ HOVER effect on text for mini nav ------------------- */
+.mini-nav{
+    padding-top: 5vmin;
 }
-.right{
-    float: right;
+.mini-nav span {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 }
+.mini-nav span:before, .mini-nav span:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0.2vmin;
+    top: 50%;
+}
+.mini-nav span:before {
+    left: -2.6px;
+}
+.mini-nav span:after {
+    right: 2.6px;
+    background:#526b53;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.mini-nav span:hover:before {
+    background: #526b53;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.mini-nav span:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+}
+
+@media only screen and (max-width: 1400px) {
+    .services-pricing{
+        width: 120vmin;
+    }
+    .services-pricing img{
+        height: 48vmin;
+        width: 46vmin;
+    }
+} 
+
+@media only screen and (max-width: 1300px) {
+    .navbar-hide{
+        display: none;
+    }
+} 
 

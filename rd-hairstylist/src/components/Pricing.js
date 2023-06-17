@@ -1,5 +1,9 @@
 import React from "react";
 import "../styles/Pricing.css";
+import brownHair from "../images/brown-hair.png";
+import balayage from "../images/balayage.jpeg";
+import color from "../images/green-color.jpeg";
+import styling from "../images/styling.jpeg";
 
 function Pricing() {
   return (
@@ -19,95 +23,140 @@ function Pricing() {
           of color are $10/bowl.
         </p>
       </section>
-      <section className="pricing-boxes">
-        <div className="box-haircuts">
-          <h3>TREATMENTS</h3>
-          <ul>
-            <div>
-              <li className="needs-info">
-                Conditioning Treatments <span className="right">$35-$100</span>
+
+      {/* new section for pricing ---------------------------------------- */}
+      <section className="pricing-flexbox">
+        <section>
+          <div className="mini-nav navbar-hide">
+            <a href="#treatments">
+              <span>Treatments</span>
+            </a>
+            <a href="#lightening">
+              <span>Lightening</span>
+            </a>
+            <a href="#coloring">
+              <span>Coloring</span>
+            </a>
+          </div>
+        </section>
+        <section className="services-pricing">
+          <section className="treatments-price price" id="treatments">
+            <img
+              src={styling}
+              className="image-top"
+              alt="dark brown hair with light brown highlights"
+            />
+            <ul>
+              <li>
+                Conditioning Treatments <br />
+                <span>
+                  Price depends on treatment <br /> choice & hair needs. <br />
+                </span>
+                $35-$100
               </li>
-              <li className="add-info">
-                Price depends on treatment <br /> choice & hair needs.
+              <li>
+                Wash & Style
+                <br />
+                $50
               </li>
-            </div>
-            <li>
-              Wash & Style <span className="right">$50</span>
-            </li>
-          </ul>
-        </div>
-        <div className="box-light">
-          <h3>LIGHTENING SERVICES</h3>
-          <ul>
-            <div>
-              <li className="needs-info">
-                Full Head Balayage <span className="right">$280+</span>
+            </ul>
+          </section>
+          <section className="lightening-price price" id="lightening">
+            <img
+              src={balayage}
+              className="image-top"
+              alt="dark brown hair with light brown highlights"
+            />
+            <ul>
+              <li>
+                Full Head Balayage <br />
+                <span>
+                  Including ends. <br />
+                </span>
+                $280+
               </li>
-              <li className="add-info">Including ends.</li>
-            </div>
-            <div>
-              <li className="needs-info">
-                Partial Head Balayage <span className="right">$225+</span>
+              <li>
+                Partial Head Balayage <br />
+                <span>
+                  Root touch up. For <br />
+                  existing clients. <br />
+                </span>
+                $225+
               </li>
-              <li className="add-info">Root touch up. For existing clients.</li>
-            </div>
-            <li>
-              Babylights <span className="right">$300+</span>
-            </li>
-            <li>
-              Full Highlight <span className="right">$200+</span>
-            </li>
-            <li>
-              Partial Highlight <span className="right">$165+</span>
-            </li>
-            <li>
-              Tipping Out Ends <span className="right">$25+</span>
-            </li>
-            <div>
-              <li className="needs-info">
-                Face-frame Highlights <span className="right">$50+</span>
+              <li>
+                Babylights <br />
+                $300+
               </li>
-              <li className="add-info">Money piece touch up only.</li>
-            </div>
-          </ul>
-        </div>
-        <div className="box-color">
-          <h3>COLORING SERVICES</h3>
-          <ul>
-            <li>
-              Base Color Root Retouch <span className="right">$85</span>
-            </li>
-            <div>
-              <li className="needs-info">
-                All Over Color <span className="right">$135+</span>
+              <li>
+                Full Highlight <br />
+                $200+
               </li>
-              <li className="add-info">Not a lightening service.</li>
-            </div>
-            <li>
-              Toner With Blow Dry/Style <span className="right">$85</span>
-            </li>
-            <li>
-              Base With Toner <span className="right">$120</span>
-            </li>
-            <li>
-              Transformational Color <span className="right">$90/hour</span>
-            </li>
-            <div>
-              <li className="needs-info">
-                Vivid Color <span className="right">$90/hour</span>
+              <li>
+                Partial Highlight <br />
+                $165+
               </li>
-              <li className="add-info">
-                Including any lightening needed <br /> to achieve result.
+              <li>
+                Tipping Out Ends <br />
+                $25+
               </li>
-            </div>
-            <li>
-              Color Corrections <span className="right">$100/hour</span>
-            </li>
-            <li className="needs-info">
-              Buzz Cut Art <span className="right">TBD</span>
-            </li>
-          </ul>
-        </div>
+              <li>
+                Face-frame Highlights <br />
+                <span>
+                  Money piece touch up only. <br />
+                </span>
+                $50+
+              </li>
+            </ul>
+          </section>
+          <section className="coloring-price price" id="coloring">
+            <img
+              src={color}
+              className="image-top"
+              alt="dark brown hair with light brown highlights"
+            />
+            <ul>
+              <li>
+                Base Color Root Retouch <br />
+                $85
+              </li>
+              <li>
+                All Over Color <br />
+                <span>
+                  Not a lightening service. <br />
+                </span>
+                $135+
+              </li>
+              <li>
+                Toner With Blow Dry/Style <br />
+                $85
+              </li>
+              <li>
+                Base With Toner <br />
+                $120
+              </li>
+              <li>
+                Transformational Color <br />
+                $90/hour
+              </li>
+              <li>
+                Vivid Color <br />
+                <span>
+                  Including any lightening <br /> needed to achieve results.
+                  <br />
+                </span>
+                $90/hour
+              </li>
+              <li>
+                Color Corrections <br />
+                $100/hour
+              </li>
+              <li>
+                Buzz Cut Art <br />
+                <span>Please inquire about price.</span>
+              </li>
+            </ul>
+          </section>
+        </section>
       </section>
     </div>
   );
