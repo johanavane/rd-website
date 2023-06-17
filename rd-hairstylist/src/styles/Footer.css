@@ -2,7 +2,6 @@
     background-color: #212121;
     display: flex;
     flex-direction: row;
-    gap: 20vmin;
     justify-content: space-evenly;
     padding: 6vmin;
 }
@@ -12,7 +11,7 @@
     font-size: 2.2vmin;
 }
 
-a.instagram{
+a.footer-link{
     text-decoration: none;
 }
 
