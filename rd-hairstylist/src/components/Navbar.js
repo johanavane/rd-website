@@ -1,19 +1,25 @@
 import React from "react";
 import "../styles/Navbar.css";
+import logo from "../images/rd-logo.png";
+import rdlogo from "../images/rd-letter-logo.png";
 
 function Navbar() {
   return (
     <div className="nav-container">
       <div className="nav-flex-box">
         <div className="nav-logo">
-          <a>RD</a>
+          <img
+            src={rdlogo}
+            className="rd-logo-nav"
+            alt="logo with rachel depillo on a black background"
+          />
         </div>
         <div className="nav-links">
           <a href="/Home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#pricing">Pricing</a>
+          <a href="#pricing">Services</a>
+          <a href="#pricing">Appointments</a>
           <a href="#gallery">Gallery</a>
-          <a href="#schedule">Schedule</a>
+          {/* <a href="#schedule">Schedule</a> */}
         </div>
       </div>
     </div>
