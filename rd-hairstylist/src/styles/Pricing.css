@@ -3,7 +3,8 @@
 /* container for section */
 .pricing-container{
     padding: 10vmin 0;
-    font-family: 'PPMori';
+    /* font-family: 'PPMori'; */
+    font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;

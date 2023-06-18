@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 6vmin;
+    font-family: 'Oswald', sans-serif;
 }
 
 .footer-container span, .footer-container a{
