@@ -17,7 +17,7 @@ function Navbar() {
         <div className="nav-links">
           <a href="/Home">Home</a>
           <a href="#pricing">Services</a>
-          <a href="#pricing">Appointments</a>
+          <a href="#schedule">Appointments</a>
           <a href="#gallery">Gallery</a>
           {/* <a href="#schedule">Schedule</a> */}
         </div>

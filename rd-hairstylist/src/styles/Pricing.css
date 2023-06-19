@@ -3,7 +3,6 @@
 /* container for section */
 .pricing-container{
     padding: 10vmin 0;
-    /* font-family: 'PPMori'; */
     font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
@@ -13,6 +12,7 @@
 .pricing-container h2{
     font-size: 2.5vmin;
     line-height: 4vmin;
+    font-family: 'PPMori';
 }
 .pricing-container p{
     font-size: 2.3vmin;
@@ -23,7 +23,6 @@
 .pricing-note{
     padding: 0 5vmin 10vmin 5vmin;
 }
-
 
 /* navbar + images & price */
 .pricing-flexbox{
@@ -41,7 +40,7 @@
 /* right section ... images + price */
 .services-pricing{
     height: 75vmin; 
-    width: 140vmin;
+    width: 138vmin;
   	overflow-y: auto;
     display: flex;
     flex-wrap: nowrap;
@@ -57,6 +56,7 @@
 .mini-nav a{
     display: block;
     line-height: 5vmin;
+    font-family: 'PPMori';
 }
 
 /* flexbox price */

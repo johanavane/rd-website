@@ -67,8 +67,8 @@ function Schedule() {
             <li>No re-booking for no calls/no shows.</li>
             <li>
               If running late, please notify me. Appointments are rescheduled
-              after a 20-minute grace period, and a $50 nonrefundable payment
-              will be collected.
+              after a 20-minute grace period, and a $50 nonrefundable payment is
+              collected.
             </li>
           </ul>
         </div>
