@@ -8,9 +8,9 @@ function Home() {
     <div className="home-container">
       <section className="home-slogan">
         <h1>
-          Cool color <br className="break-hide" /> for cool{" "}
+          Cool Color <br className="break-hide" /> For Cool{" "}
           <br className="break-hide" />
-          people.
+          People.
         </h1>
         <button>
           <a href="#schedule">Schedule</a>

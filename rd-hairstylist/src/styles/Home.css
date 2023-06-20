@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Oswald:wght@300&display=swap');
+
+
+
 .home-container{
     background-color: #b2ac88;
     display: flex;
@@ -16,7 +20,9 @@
 
 .home-slogan h1{
     color: whitesmoke;
-    font-size: 13.4vmin;
+    font-family: 'Bagel Fat One', cursive;
+    line-height: 16vmin;
+    font-size: 12vmin;
     padding-bottom: 7.5vmin;
     margin: 0px;
 }
@@ -50,10 +56,10 @@
     padding: 2vmin;
 }
 
-img.image-top{
+.home-images img.image-top{
     margin-bottom: 16vmin;
 }
-img.image-bottom{
+.home-images img.image-bottom{
     margin-top: 16vmin;
 }
 
