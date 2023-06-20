@@ -4,7 +4,9 @@
   }
 
 .services-container{
-    background-color: #eeede5;
+    /* background-color: #eeede5; */
+    background-color: #f0f0f0;
+    /* background-color: #faecf1; */
     font-family: 'PPMori';
     padding: 4vmin;
 }

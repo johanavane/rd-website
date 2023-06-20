@@ -1,5 +1,6 @@
 .schedule-container{
     background-color: #eeede5;
+    background-color: #f5d4e0;
     /* background-color: #526b53; */
     display: flex;
     flex-direction: row;
@@ -30,6 +31,7 @@
 /* box for schedule + box for policies */
 .schedule-box{
     background-color: whitesmoke;
+    /* background-color: #faecf1; */
     box-shadow: 0px 1vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
     width: 40vmin;
     border-radius: 4vmin; 

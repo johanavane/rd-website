@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 .nav-container{
-    background-color: #b2ac88;
+    /* background-color: #b2ac88; */
+    background-color: #e593b1;
     /* background-color: paleturquoise; */
     width: 100%;
     height: 8vmin;
@@ -24,5 +25,5 @@
     margin-left: 5vmin;
 }
 .nav-logo img{
-    height: 4.5vmin;
+    height: 4.7vmin;
 }

@@ -39,17 +39,19 @@
 
 /* right section ... images + price */
 .services-pricing{
+    /* border-left: 0.3vmin solid black; */
     height: 75vmin; 
-    width: 138vmin;
+    width: 115vmin;
   	overflow-y: auto;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    /* margin-left: 7vmin; */
 }
 
 .services-pricing img{
     height: 50vmin;
-    width: 48vmin;
+    width: 50vmin;
 }
 
 /* vertically align navbar */
@@ -115,7 +117,7 @@
 
 @media only screen and (max-width: 1400px) {
     .services-pricing{
-        width: 120vmin;
+        width: 100vmin;
     }
     .services-pricing img{
         height: 48vmin;

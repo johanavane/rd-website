@@ -19,7 +19,6 @@ function Navbar() {
           <a href="#pricing">Services</a>
           <a href="#schedule">Appointments</a>
           <a href="#gallery">Gallery</a>
-          {/* <a href="#schedule">Schedule</a> */}
         </div>
       </div>
     </div>

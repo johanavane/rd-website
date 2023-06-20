@@ -29,15 +29,12 @@
     border-radius: 1vmin; 
 } 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1150px) {
     .row img{
         height: 20vmin;
         width: 20vmin;
         border-radius: 1vmin; 
     } 
-} 
-
-@media only screen and (max-width: 900px) {
     .fifth{
         display: none;
     }

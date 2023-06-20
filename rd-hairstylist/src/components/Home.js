@@ -13,18 +13,18 @@ function Home() {
           People.
         </h1>
         <button>
-          <a href="#schedule">Schedule</a>
+          <a href="#schedule">SCHEDULE</a>
         </button>
       </section>
       <section className="home-images">
         <img
           src={brownHair}
-          className="image-top"
+          className="image-top floating-one"
           alt="dark brown hair with light brown highlights"
         />
         <img
           src={colorfulHair}
-          className="image-bottom"
+          className="image-bottom floating-two"
           alt="silver hair with colorful highlights"
         />
       </section>
