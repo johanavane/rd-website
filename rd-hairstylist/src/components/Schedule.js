@@ -30,7 +30,7 @@ function Schedule() {
             <li>Full name.</li>
             <li>2-3 years of hair history (professional and at home color).</li>
             <li>Front and back photos of current hair.</li>
-            <li>2-3 inspiration photos of desired hair goals.</li>
+            <li>2-3 inspiration photos of desired hair.</li>
             <li>Availability (Tuesday - Saturday).</li>
           </ul>
         </div>
@@ -62,7 +62,7 @@ function Schedule() {
           <ul>
             <li>
               To avoid a $50 cancellation fee (except first time occurences), a
-              48-hour notice is required for rescheduled appointments.
+              48-hour notice is required to reschedule appointments.
             </li>
             <li>No re-booking for no calls/no shows.</li>
             <li>

@@ -101,11 +101,11 @@
 }
 .mini-nav span:after {
     right: 2.6px;
-    background:#526b53;
+    background: #e593b1;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 .mini-nav span:hover:before {
-    background: #526b53;
+    background: #e593b1;
     width: 100%;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
 }

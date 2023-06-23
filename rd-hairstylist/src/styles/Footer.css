@@ -1,10 +1,13 @@
+.footer-background{
+    background-color: #212121; 
+    padding: 5vmin;
+    font-family: 'Oswald', sans-serif;
+}
+
 .footer-container{
-    background-color: #212121;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 6vmin;
-    font-family: 'Oswald', sans-serif;
 }
 
 .footer-container span, .footer-container a{
@@ -24,4 +27,13 @@ span.rachel{
     display: flex;
     flex-direction: column;
     gap: 2vmin;
+}
+
+a.web-design{
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5vmin;
+    color: gray; 
+    font-size: 2vmin;
+    text-decoration: none;
 }

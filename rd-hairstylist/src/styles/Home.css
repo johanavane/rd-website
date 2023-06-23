@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Oswald:wght@300&display=swap');
 
 .home-background{
-    background-color: #faecf1;
+    background-color: #edf7eb;
 }
 
 .home-container{
-    /* background-color: #b2ac88; */
-    /* background-color: #d2eccd; */
-    background-color: #e593b1;
-    background-color: #9AC791;
+    background-color: #d2eccd;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -26,7 +23,7 @@
 }
 
 .home-slogan h1{
-    color: black;
+    color: #120f2a;
     font-family: 'Bagel Fat One', cursive;
     line-height: 16vmin;
     font-size: 12vmin;
@@ -41,8 +38,8 @@
     width: 16vmin;
     border: none;
     border-radius: 3vmin;
-    background-color: #f0f0f0;
-    background: linear-gradient(to right, black 50%, white 50%);
+    background-color: #e593b1;
+    /* background: linear-gradient(to right, black 50%, white 50%); */
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-out;
@@ -52,7 +49,7 @@
     background-position: left bottom;
   }
 .home-slogan a{
-    color: black;
+    color: white;
     font-size: 2.2vmin;
     font-weight: bold;
     text-decoration: none;
@@ -73,8 +70,10 @@
     height: 45vmin;
     width: 43vmin;
     border-radius: 1.5vmin; 
-    border: 0.3vmin solid #f0f0f0;
+    outline: 0.4vmin solid white;
+    border: 0.3vmin solid #f19ad5;
     padding: 2vmin;
+    outline-offset: -1vmin;
 }
 
 .home-images img.image-top{
@@ -107,7 +106,7 @@
 /* image aniamtion, moves up + down */
 .floating { 
     animation-name: floating;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
