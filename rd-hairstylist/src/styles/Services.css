@@ -1,19 +1,19 @@
 @font-face {
     font-family: "PPMori";
     src: url("../fonts/PPMori-Regular.otf") format('truetype');
-  }
-
+}
+  
 .services-container{
-    /* background-color: #eeede5; */
-    background-color: #f0f0f0;
-    /* background-color: #faecf1; */
-    font-family: 'PPMori';
-    padding: 4vmin;
+    background-color: #faecf1;
+    font-family: 'Oswald', sans-serif;
+    padding: 7vmin 0;
+    border-bottom-left-radius: 150px 60px;
+    border-bottom-right-radius: 150px 60px;
 }
 
 .services-container span{
     font-weight: bold;
-    font-size: 2vmin;
+    font-size: 2.5vmin;
 }
 
 .services-flexbox{
@@ -27,19 +27,18 @@
 }
 
 .services-container img{
-    width: 6.5vmin;
+    width: 9vmin;
 }
 
 .treatments, .color, .lightening{
+    background-color: #e593b1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 0.3vmin solid black;
+    border-radius: 10%;
+    padding: 3vmin;
 }
-
-.treatments img, .color img, .lightening img{
-    padding-bottom: 3vmin;
-}
-
 
 @media only screen and (max-height: 400px) {
     .services-flexbox{
@@ -48,4 +47,18 @@
     .treatments, .color, .lightening{
         padding-left: 8vmin;
     }
+}
+
+.circle-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-color: #e593b1;
+    background-color: #faecf1;
+    border-radius: 50%;
+    height: 13vmin;
+    width: 13vmin;
+    margin-bottom: 3vmin;
 }

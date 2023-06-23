@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Oswald:wght@300&display=swap');
 
+.home-background{
+    background-color: #faecf1;
+}
+
 .home-container{
     /* background-color: #b2ac88; */
     /* background-color: #d2eccd; */
     background-color: #e593b1;
+    background-color: #9AC791;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -11,6 +16,8 @@
     align-items: center;
     padding: 15vmin 4vmin 15vmin 4vmin;
     gap: 10vmin;
+    border-bottom-left-radius: 150px 60px;
+    border-bottom-right-radius: 150px 60px;
 }
 
 .home-slogan{
@@ -27,13 +34,14 @@
     margin: 0px;
 }
 
+
+/* styling + animation for button */
 .home-slogan button{
     height: 7.5vmin;
     width: 16vmin;
     border: none;
     border-radius: 3vmin;
     background-color: #f0f0f0;
-    /* added */
     background: linear-gradient(to right, black 50%, white 50%);
     background-size: 200% 100%;
     background-position: right bottom;
@@ -52,8 +60,7 @@
 }
 .home-slogan a:hover {
     color: white;  
-  }
-
+}
 
 .home-images{
     display: flex;
@@ -77,6 +84,7 @@
     margin-top: 16vmin;
 }
 
+/* media query, removes button when resizing screen, padding chabged */
 @media only screen and (max-width: 1350px) {
     .home-container{
         padding-left: 10vmin;
@@ -96,29 +104,27 @@
     }
 } 
 
-
-.floating-one { 
-    animation-name: floating-one;
+/* image aniamtion, moves up + down */
+.floating { 
+    animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
  
-@keyframes floating-one {
+@keyframes floating {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, 17px); }
     100%   { transform: translate(0, -0px); }   
 }
 
-.floating-two { 
+.floating-two{
     animation-name: floating-two;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
 }
- 
 @keyframes floating-two {
     0% { transform: translate(0,  0px); }
     50%  { transform: translate(0, -17px); }
     100%   { transform: translate(0, -0px); }   
 }
+
+

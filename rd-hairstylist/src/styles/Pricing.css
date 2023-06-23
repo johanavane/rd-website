@@ -125,6 +125,7 @@
     }
 } 
 
+/* hides navbar when screen resized */
 @media only screen and (max-width: 1300px) {
     .navbar-hide{
         display: none;

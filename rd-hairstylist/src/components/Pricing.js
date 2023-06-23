@@ -9,9 +9,9 @@ function Pricing() {
   return (
     <div className="pricing-container" id="pricing">
       <section className="pricing-note">
-        <h2>PRICING</h2>
+        <h2>SERVICES</h2>
         <p>
-          Please note pricing for services may fluctuate based on hair length,
+          Please note prices for services may fluctuate based on hair length,
           density, and amount of product used.
         </p>
         <p>
