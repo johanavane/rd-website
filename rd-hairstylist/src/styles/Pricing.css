@@ -1,5 +1,3 @@
-/* PRICING first section ----------------------------------- */
-
 /* container for section */
 .pricing-container{
     padding: 10vmin 0;
@@ -39,14 +37,12 @@
 
 /* right section ... images + price */
 .services-pricing{
-    /* border-left: 0.3vmin solid black; */
     height: 75vmin; 
     width: 115vmin;
   	overflow-y: auto;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    /* margin-left: 7vmin; */
 }
 
 .services-pricing img{
