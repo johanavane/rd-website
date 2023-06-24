@@ -4,10 +4,6 @@
 }
   
 .services-container{
-    background-color: #faecf1;
-    background-color: #fce8e5;
-    background-color: #f0f0f0;
-    background-color: #fffcf0;
     background-color: #edf7eb;
     font-family: 'Oswald', sans-serif;
     padding: 7vmin 0;
@@ -18,7 +14,6 @@
 .services-container span{
     font-weight: bold;
     font-size: 2.5vmin;
-    color: #fffcf0;
     color: white;
 }
 
@@ -38,15 +33,10 @@
 
 .treatments, .color, .lightening{
     background-color: #e593b1;
-    background-color: #bae8d7;
-    background-color: #f19ad5;
-    background-color: white;
-    background-color: #e593b1;
-
+    box-shadow: 0px 0.5vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* border: 0.3vmin solid black; */
     border-radius: 10%;
     padding: 3vmin;
 }
