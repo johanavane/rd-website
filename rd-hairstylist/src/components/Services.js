@@ -11,6 +11,7 @@ function Services() {
         <section className="color">
           <div className="circle-image">
             <img
+              // https://thenounproject.com/icon/hair-color-4502960/
               src={imageHairColor}
               alt="black and white drawing of hair being dyed"
             />
@@ -20,6 +21,7 @@ function Services() {
         <section className="lightening">
           <div className="circle-image">
             <img
+              // https://thenounproject.com/icon/hair-5185624/
               src={imageHairLightening}
               alt="black and white drawing of woman with long hair"
             />
@@ -29,6 +31,7 @@ function Services() {
         <section className="treatments">
           <div className="circle-image">
             <img
+              // https://thenounproject.com/icon/bio-keratin-4162498/
               src={imageHairTreatment}
               alt="black and white drawing of a hair product bottle"
             />
