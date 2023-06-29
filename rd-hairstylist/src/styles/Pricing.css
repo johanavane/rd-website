@@ -40,7 +40,6 @@
     height: 75vmin; 
     width: 115vmin;
   	overflow-y: auto;
-    display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
 }
@@ -48,6 +47,7 @@
 .services-pricing img{
     height: 50vmin;
     width: 50vmin;
+    margin-right: 14vmin;
 }
 
 /* vertically align navbar */
@@ -64,7 +64,6 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    gap: 14vmin;
     padding: 8vmin 0;
 }
 .price span{
@@ -127,4 +126,11 @@
         display: none;
     }
 } 
+/* removes scrollable fetaure on mobile */
+@media only screen and (max-width: 700px) {
+    .services-pricing{
+        height: 100%;
+    }
+} 
+
 
