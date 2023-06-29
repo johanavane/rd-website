@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Pricing.css";
-import brownHair from "../images/brown-hair.png";
 import balayage from "../images/balayage.jpeg";
 import color from "../images/green-color.jpeg";
 import styling from "../images/styling.jpeg";
@@ -9,9 +8,9 @@ function Pricing() {
   return (
     <div className="pricing-container" id="pricing">
       <section className="pricing-note">
-        <h2>PRICING</h2>
+        <h2>SERVICES</h2>
         <p>
-          Please note pricing for services may fluctuate based on hair length,
+          Please note prices for services may fluctuate based on hair length,
           density, and amount of product used.
         </p>
         <p>
@@ -23,8 +22,6 @@ function Pricing() {
           of color are $10/bowl.
         </p>
       </section>
-
-      {/* new section for pricing ---------------------------------------- */}
       <section className="pricing-flexbox">
         <section>
           <div className="mini-nav navbar-hide">
@@ -41,11 +38,7 @@ function Pricing() {
         </section>
         <section className="services-pricing">
           <section className="treatments-price price" id="treatments">
-            <img
-              src={styling}
-              className="image-top"
-              alt="dark brown hair with light brown highlights"
-            />
+            <img src={styling} alt="long brown hair with blonde highlights" />
             <ul>
               <li>
                 Conditioning Treatments <br />
@@ -62,11 +55,7 @@ function Pricing() {
             </ul>
           </section>
           <section className="lightening-price price" id="lightening">
-            <img
-              src={balayage}
-              className="image-top"
-              alt="dark brown hair with light brown highlights"
-            />
+            <img src={balayage} alt="blonde medium length hair" />
             <ul>
               <li>
                 Full Head Balayage <br />
@@ -109,11 +98,7 @@ function Pricing() {
             </ul>
           </section>
           <section className="coloring-price price" id="coloring">
-            <img
-              src={color}
-              className="image-top"
-              alt="dark brown hair with light brown highlights"
-            />
+            <img src={color} alt="short black hair with green tips" />
             <ul>
               <li>
                 Base Color Root Retouch <br />

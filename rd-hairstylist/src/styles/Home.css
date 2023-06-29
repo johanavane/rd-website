@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Oswald:wght@300&display=swap');
 
-
+.home-background{
+    background-color: #edf7eb;
+}
 
 .home-container{
-    background-color: #b2ac88;
+    background-color: #d2eccd;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap-reverse;
@@ -11,6 +13,8 @@
     align-items: center;
     padding: 15vmin 4vmin 15vmin 4vmin;
     gap: 10vmin;
+    border-bottom-left-radius: 150px 60px;
+    border-bottom-right-radius: 150px 60px;
 }
 
 .home-slogan{
@@ -19,26 +23,41 @@
 }
 
 .home-slogan h1{
-    color: whitesmoke;
+    color: #120f2a;
     font-family: 'Bagel Fat One', cursive;
     line-height: 16vmin;
     font-size: 12vmin;
     padding-bottom: 7.5vmin;
     margin: 0px;
 }
-.home-slogan a{
-    color: whitesmoke;
-    font-size: 2.2vmin;
-    text-decoration: none;
-}
 
+
+/* styling + animation for button */
 .home-slogan button{
     height: 7.5vmin;
-    width: 15vmin;
-    border: 0.3vmin solid black;
-    border-radius: 2vmin;
-    /* background-color: #1d4130; */
-    background-color: #526b53;
+    width: 16vmin;
+    border: none;
+    border-radius: 3vmin;
+    background-color: #e593b1;
+    box-shadow: 0px 0.4vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
+    /* background: linear-gradient(to right, black 50%, white 50%); */
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.home-slogan button:hover {
+    background-position: left bottom;
+  }
+.home-slogan a{
+    color: white;
+    font-size: 2.2vmin;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .1s ease-in;
+}
+.home-slogan a:hover {
+    color: white;  
 }
 
 .home-images{
@@ -52,8 +71,10 @@
     height: 45vmin;
     width: 43vmin;
     border-radius: 1.5vmin; 
-    border: 0.3vmin solid black;
+    outline: 0.4vmin solid white;
+    border: 0.3vmin solid #f19ad5;
     padding: 2vmin;
+    outline-offset: -1vmin;
 }
 
 .home-images img.image-top{
@@ -63,7 +84,8 @@
     margin-top: 16vmin;
 }
 
-@media only screen and (max-width: 1200px) {
+/* media query, removes button when resizing screen, padding chabged */
+@media only screen and (max-width: 1350px) {
     .home-container{
         padding-left: 10vmin;
         padding-right: 10vmin;
@@ -71,7 +93,38 @@
     .home-slogan{
         text-align: center;
     }
+    .home-slogan h1{
+        padding-bottom: 0vmin;
+    }
+    .home-slogan button{
+        display: none;
+    }
     .break-hide{
         display: none;
     }
 } 
+
+/* image aniamtion, moves up + down */
+.floating { 
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 17px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.floating-two{
+    animation-name: floating-two;
+}
+@keyframes floating-two {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, -17px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+

@@ -14,14 +14,18 @@ import imageTen from "../images/hair-ten.png";
 function Gallery() {
   return (
     <div className="gallery-container" id="gallery">
-      <h4>Follow @racheldepillo on Instagram for more!</h4>
+      <h3>Follow @racheldepillo on Instagram for more!</h3>
       <div className="gallery-flex">
         <div className="row">
           <img src={imageOne} alt="short light brown hair with blonde bangs" />
           <img src={imageTwo} alt="short blue hair" />
           <img src={imageThree} alt="cheetah print buzz cut" />
           <img src={imageFour} alt="long auburn hair with blonde bangs" />
-          <img className="fifth" src={imageFive} alt="long light brown hair" />
+          <img
+            className="fifth"
+            src={imageFive}
+            alt="long light wavy brown hair"
+          />
         </div>
         <div className="row">
           <img src={imageSix} alt="dark hair with light red highlights" />
@@ -31,7 +35,7 @@ function Gallery() {
           <img
             className="fifth"
             src={imageTen}
-            alt="black hair with blonde bangs "
+            alt="black hair with blonde bangs"
           />
         </div>
       </div>

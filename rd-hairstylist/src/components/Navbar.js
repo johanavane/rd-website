@@ -11,15 +11,14 @@ function Navbar() {
           <img
             src={rdlogo}
             className="rd-logo-nav"
-            alt="logo with rachel depillo on a black background"
+            alt="logo with the letters rd on a black background"
           />
         </div>
         <div className="nav-links">
-          <a href="/Home">Home</a>
+          {/* <a href="/Home">Home</a> */}
           <a href="#pricing">Services</a>
           <a href="#schedule">Appointments</a>
           <a href="#gallery">Gallery</a>
-          {/* <a href="#schedule">Schedule</a> */}
         </div>
       </div>
     </div>

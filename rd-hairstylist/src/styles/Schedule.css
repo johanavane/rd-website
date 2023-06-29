@@ -1,6 +1,5 @@
 .schedule-container{
-    background-color: #eeede5;
-    /* background-color: #526b53; */
+    background-color: #d2eccd;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -8,7 +7,6 @@
     padding: 8.5vmin 9vmin;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
-    /* margin: 0 5vmin; */
 }
 
 /* font size ------------------ */
@@ -29,19 +27,19 @@
 
 /* box for schedule + box for policies */
 .schedule-box{
-    background-color: whitesmoke;
-    box-shadow: 0px 1vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
+    background-color: #edf7eb;
+    box-shadow: 0px 0.7vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
     width: 40vmin;
     border-radius: 4vmin; 
     padding: 5.5vmin 4vmin; 
     display: flex;
     flex-direction: column;
-    /* flex-grow: 1; */
+    flex-grow: 1;
     align-items: center;
 }
 
-.schedule p:nth-child(-n+2){
-    margin-bottom: 5vmin;
+.schedule p:nth-child(-n+2), .deposits li:nth-child(-n+2){
+    margin-bottom: 3vmin;
 }
 .consults p:first-of-type{
     margin-bottom: 1.5vmin;
@@ -49,10 +47,6 @@
 .schedule-container li{
     line-height: 3.2vmin;
 }
-.deposits li:nth-child(-n+2){
-    margin-bottom: 5vmin;
-}
-
 .cancellations li:nth-child(-n+2){
     margin-bottom: 1.8vmin;
 }
@@ -64,8 +58,6 @@
     transform: translateY(-5px);
 }
 
-
-
 @media only screen and (max-width: 1200px) {
     .schedule-container{
         padding: 8.5vmin 15vmin;
@@ -76,9 +68,5 @@
         margin-bottom: 4vmin;
     } 
 }
-
-
-
-
 
 
