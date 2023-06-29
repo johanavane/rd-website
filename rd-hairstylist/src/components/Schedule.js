@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Schedule.css";
+import smiley from "../images/happiness.png";
 
 function Schedule() {
   return (
@@ -8,7 +9,11 @@ function Schedule() {
       <section className="schedule-box schedule">
         <h2>New Clients</h2>
         <div>
-          <p>Thank you so much for choosing me for your hair needs.</p>
+          {/* https://www.flaticon.com/free-icons/smile Smile icons created by Freepik - Flaticon */}
+          <p className="smile-icon">
+            Hello! Thank you for choosing me for your hair needs
+            <img src={smiley} className="smiley-face" alt="smiley face icon" />
+          </p>
           <p>
             New clients, please schedule a 15-30 minute in-person consultation
             for a personalized discussion about your hair.
