@@ -12,16 +12,12 @@
 
 .footer-container span, .footer-container a{
     color: whitesmoke;
-    font-size: 2.2vmin;
+    font-size: 2.3vmin;
     margin: 1vmin;
 }
 
 a.footer-link{
     text-decoration: none;
-}
-
-span.rachel{
-    font-size: 2.3vmin;
 }
 
 .column{

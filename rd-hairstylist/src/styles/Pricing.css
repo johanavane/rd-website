@@ -13,7 +13,7 @@
     font-family: 'PPMori';
 }
 .pricing-container p{
-    font-size: 2.3vmin;
+    font-size: 2.5vmin;
     line-height: 4vmin;
 }
 
@@ -67,11 +67,11 @@
     padding: 8vmin 0;
 }
 .price span{
-    font-size: 2.1vmin;
+    font-size: 2.3vmin;
 }
 
 .pricing-flexbox li{
-    font-size: 2.3vmin;
+    font-size: 2.5vmin;
     padding: 1.7vmin 0;
 }
 
