@@ -9,7 +9,7 @@ function Navbar() {
       <div className="nav-flex-box">
         <div className="nav-logo">
           <img
-            src={rdlogo}
+            src={logo}
             className="rd-logo-nav"
             alt="logo with the letters rd on a black background"
           />
