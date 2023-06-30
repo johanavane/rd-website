@@ -14,7 +14,7 @@
 .services-container span{
     font-weight: bold;
     font-size: 2.5vmin;
-    color: white;
+    color: black;
 }
 
 .services-flexbox{
@@ -48,6 +48,8 @@
     justify-content: center;
     background-color: white;
     border-radius: 50%;
+    border: 0.1vmin solid #000000;
+
     height: 13vmin;
     width: 13vmin;
     margin-bottom: 3vmin;
