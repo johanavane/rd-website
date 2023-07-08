@@ -1,3 +1,4 @@
+/* SCHEDULE CONTAINER -------------------------------------- */
 .schedule-container{
     background-color: #d2eccd;
     display: flex;
@@ -8,69 +9,88 @@
     font-family: 'Oswald', sans-serif;
 }
 
-/* font size ------------------ */
+/* font sizes */
 .schedule-container h2{
     font-size: 2.7vmin;
-    margin-bottom: 5vmin;
+    margin-bottom: 3.4vmin;
     font-family: 'PPMori';
 }
 .schedule-container p, li{
     font-size: 2.5vmin;
-    line-height: 3vmin;
+    line-height: 3.5vmin;
 }
-/* left indent for lists ---------- */
+/* left indent for lists */
 .schedule-container li{
-    margin-left: 2vmin;
+    margin-left: 2.8vmin;
     list-style: circle;
 }
 
-/* box for schedule + box for policies */
+/* SCHEDULE BOX ------------------------------------------- */
+/* new clients + consults + deposits + cancells */
 .schedule-box{
     background-color: #edf7eb;
     box-shadow: 0px 0.7vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
     width: 40vmin;
     border-radius: 4vmin; 
-    padding: 5vmin 5vmin; 
+    padding: 5.5vmin 5vmin; 
     margin: 1vmin;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
 }
-
+/* smiley face on new clients message */
 img.smiley-face{
     height: 2.2vmin;
     margin-left: 0.5vmin;
 }
 .schedule p:nth-child(-n+2), .deposits li:nth-child(-n+2){
-    margin-bottom: 3vmin;
-}
-.consults p:first-of-type{
-    margin-bottom: 1.5vmin;
-}
-.schedule-container li{
-    line-height: 3.2vmin;
+    margin-bottom: 6vmin;
 }
 .cancellations li:nth-child(-n+2){
-    margin-bottom: 1.8vmin;
+    margin-bottom: 3vmin;
+}
+/* CONSULTS --------------------------------------------- */
+.consults button{
+    height: 5.8vmin;
+    width: 21vmin;
+    border: none;
+    border-radius: 2vmin;
+    background-color: #e593b1;
+    box-shadow: 0px 0.4vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
+    margin-top: 3.8vmin;
+}
+.consults a{
+    color: #120f2a;
+    font-size: 2vmin;
+    text-decoration: none;
 }
 
-/* hover effect on services boxes */
+/* ANIMATION --------------------------------------------- */
+/* hover effect on boxes */
 .schedule-box:hover{
     box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
     /* transform creates illusion of box being lifted */
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
+
+/* MEDIA QUERIES ------------------------------------------- */
 @media only screen and (max-width: 1200px) {
     .schedule-container{
         padding: 8.5vmin 15vmin;
     }
 } 
 @media only screen and (max-width: 700px) {
- .schedule, .consults, .deposits{
+    .schedule, .consults, .deposits{
         margin-bottom: 4vmin;
-    } 
+    }
+    .schedule p:nth-child(-n+2), .deposits li:nth-child(-n+2){
+        margin-bottom: 2vmin;
+    }
+    .cancellations li:nth-child(-n+2){
+        margin-bottom: 2vmin;
+    }
 }
 
 

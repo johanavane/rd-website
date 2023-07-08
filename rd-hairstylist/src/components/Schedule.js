@@ -28,17 +28,30 @@ function Schedule() {
       <section className="schedule-box consults">
         <h2>Consultations</h2>
         <div>
-          <p className="consult-info">
-            To schedule a consultation, please text (949)302-2748 and include:
+          <p>
+            When booking an in-person consultation, please select proper
+            location (SOUTHERN LOCAL), then select the appropriate consultation
+            you’d like to book (GENERAL CONSULTATION, COLOR CONSULTATION OR
+            CORRECTIVE COLOR CONSULTATION) and select RACHEL DEPILLO from list
+            of professionals!
+          </p>
+          {/* <p className="consult-info">
+            When booking an in-person consultation, please select:
           </p>
           <ul>
-            <li>Full name.</li>
-            <li>2-3 years of hair history (professional and at home color).</li>
-            <li>Front and back photos of current hair.</li>
-            <li>2-3 inspiration photos of desired hair.</li>
-            <li>Availability (Tuesday - Saturday).</li>
-          </ul>
+            <li>Proper location (SOUTHERN LOCAL)</li>
+            <li>
+              Appropriate consultation you’d like to book (GENERAL CONSULTATION,
+              COLOR CONSULTATION OR CORRECTIVE COLOR CONSULTATION)
+            </li>
+            <li>RACHEL DEPILLO as professional</li>
+          </ul> */}
         </div>
+        <button className="schedule-consult">
+          <a href="https://dashboard.boulevard.io/booking/businesses/741b8cf7-9df3-4a6f-ab63-a22b45b65213/widget#/locations">
+            SCHEDULE HERE
+          </a>
+        </button>
       </section>
       {/* deposits box info -------------------- */}
       <section className="schedule-box deposits">
