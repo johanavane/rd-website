@@ -3,6 +3,8 @@
 Welcome to [RadHairArt.com](https://www.radhairart.com), a hair stylist website showcasing previous work, services, and a convenient scheduling portal.
 
 ## Tech Stack 
+![next](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![sass](https://img.shields.io/badge/Sass-CC6699.svg?style=for-the-badge&logo=Sass&logoColor=white)
 ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 ![html](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
@@ -16,6 +18,7 @@ Welcome to [RadHairArt.com](https://www.radhairart.com), a hair stylist website 
 - **Responsive Design:** I implemented media queries to guarantee responsive web design. This optimization ensures that the website's layout and content adapt seamlessly to various devices, providing an excellent user experience on both desktop and mobile.
   
 - **Web Accessibility:** I prioritized web accessibility by adhering to Web Content Accessibility Guidelines (WCAG). This commitment ensures an inclusive design and format, making the website accessible to all users.
+- **Next.js:** Succesfully migrated web application to Next.js to enhance SEO performance and improve page ranking.
 
 ## Deployment
 I managed the development process and tracked tasks using Trello, ensuring a structured and organized workflow. The website is successfully deployed and hosted on Netlify, ensuring fast and reliable access for visitors.
@@ -24,10 +27,11 @@ I managed the development process and tracked tasks using Trello, ensuring a str
 To run this project locally for development or testing purposes, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/johanavane/rd-website.git`
-2. Navigate to the project directory: `cd rd-website`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm start` or `yarn start`
-5. Access the website in your browser at `http://localhost:3000`
+2. For React.js navigate to directory: `cd rd-website`  
+   For Next.js navigate to directory: `cd nextjs-rha` 
+4. Install dependencies: `npm install`
+5. Start the development server: `npm start` or `yarn start`
+6. Access the website in your browser at `http://localhost:3000`
    
 The page will automatically reload if you make any edits, and any lint errors will be displayed in the console.
 
