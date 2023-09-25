@@ -1,0 +1,40 @@
+.gallery-container{
+    text-align: center;
+    font-size: 0;
+    font-family: 'PPMori';
+}
+
+.gallery-container h3{
+    font-size: 2.5vmin;
+    padding-top: 8vmin;
+}
+
+.gallery-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 4vmin 0 10vmin 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row img{
+    height: 23vmin;
+    width: 23vmin;
+    border-radius: 1vmin; 
+    margin: 1vmin;
+} 
+
+@media only screen and (max-width: 1150px) {
+    .row img{
+        height: 20vmin;
+        width: 20vmin;
+        border-radius: 1vmin; 
+    } 
+    .fifth{
+        display: none;
+    }
+} 

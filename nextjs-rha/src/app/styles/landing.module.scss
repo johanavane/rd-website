@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Oswald:wght@300&display=swap');
+
+.homeBackground{
+    background-color: #edf7eb;
+}
+
+.homeContainer{
+    background-color: #d2eccd;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 15vmin 4vmin 15vmin 4vmin;
+    gap: 10vmin;
+    border-bottom-left-radius: 150px 60px;
+    border-bottom-right-radius: 150px 60px;
+}
+
+.homeSlogan{
+    display: flex;
+    flex-direction: column;
+    h1{
+        color: #120f2a;
+        font-family: 'Bagel Fat One', cursive;
+        line-height: 16vmin;
+        font-size: 12vmin;
+        padding-bottom: 7.5vmin;
+        margin: 0px;
+    }
+    a{
+        color: #120f2a;
+        font-size: 2.2vmin;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all .1s ease-in;       
+    }
+    // styling for button 
+    button{
+        height: 7.5vmin;
+        width: 16vmin;
+        border: none;
+        border-radius: 3vmin;
+        background-color: #e593b1;
+        box-shadow: 0px 0.4vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
+    }
+}
+
+.homeSlogan a:hover {
+    color: white;  
+}
+
+.homeImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.homeImages img{
+    height: 45vmin;
+    width: 43vmin;
+    border-radius: 1.5vmin; 
+    outline: 0.4vmin solid white;
+    border: 0.3vmin solid #f19ad5;
+    padding: 2vmin;
+    margin: 1vmin;
+    outline-offset: -1vmin;
+}
+
+.homeImages img.imageTop{
+    margin-bottom: 16vmin;
+}
+.homeImages img.imageBottom{
+    margin-top: 16vmin;
+}
+
+/* media query, removes button when resizing screen, padding chabged */
+@media only screen and (max-width: 1350px) {
+    .homeContainer{
+        padding-left: 10vmin;
+        padding-right: 10vmin;
+    }
+    .homeSlogan{
+        text-align: center;
+    }
+    .homeSlogan h1{
+        padding-bottom: 0vmin;
+    }
+    .homeSlogan button{
+        display: none;
+    }
+    .breakHide{
+        display: none;
+    }
+} 
+
+/* image animation, moves up + down */
+.floating { 
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 17px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+.floatingTwo{
+    animation-name: floating-two;
+}
+@keyframes floatingTwo {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, -17px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+

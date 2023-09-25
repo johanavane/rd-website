@@ -1,0 +1,91 @@
+/* SCHEDULE CONTAINER -------------------------------------- */
+.schedule-container{
+    background-color: #d2eccd;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 8.5vmin 9vmin;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    h2{
+        font-size: 2.7vmin;
+        margin-bottom: 3.4vmin;
+        font-family: 'PPMori';
+    }
+    p{
+        font-size: 2.5vmin;
+        line-height: 3.5vmin;
+    }
+    li{
+        margin-left: 2.8vmin;
+        list-style: circle;
+        font-size: 2.5vmin;
+        line-height: 3.5vmin;       
+    }
+}
+
+/* SCHEDULE BOX ------------------------------------------- */
+/* new clients + consults + deposits + cancells */
+.schedule-box{
+    background-color: #edf7eb;
+    box-shadow: 0px 0.7vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
+    width: 40vmin;
+    border-radius: 4vmin; 
+    padding: 5.5vmin 5vmin; 
+    margin: 1vmin;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}
+.schedule p:nth-child(-n+2), .deposits li:nth-child(-n+2){
+    margin-bottom: 6vmin;
+}
+.cancellations li:nth-child(-n+2){
+    margin-bottom: 3vmin;
+}
+
+/* CONSULTS --------------------------------------------- */
+.consults {
+    button{
+        height: 5.8vmin;
+        width: 21vmin;
+        border: none;
+        border-radius: 2vmin;
+        background-color: #e593b1;
+        box-shadow: 0px 0.4vmin 1vmin 0vmin rgba(0, 0, 0, 0.25);
+        margin-top: 3.8vmin;
+    }
+    a{
+        color: #120f2a;
+        font-size: 2vmin;
+        text-decoration: none;
+    }
+}
+
+/* ANIMATION --------------------------------------------- */
+/* hover effect on boxes */
+.schedule-box:hover{
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    /* transform creates illusion of box being lifted */
+    transform: translateY(-8px);
+}
+
+
+/* MEDIA QUERIES ------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    .schedule-container{
+        padding: 8.5vmin 15vmin;
+    }
+} 
+@media only screen and (max-width: 700px) {
+    .schedule, .consults, .deposits{
+        margin-bottom: 4vmin;
+    }
+    .schedule p:nth-child(-n+2), .deposits li:nth-child(-n+2){
+        margin-bottom: 2vmin;
+    }
+    .cancellations li:nth-child(-n+2){
+        margin-bottom: 2vmin;
+    }
+}

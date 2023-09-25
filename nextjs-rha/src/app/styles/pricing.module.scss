@@ -1,0 +1,134 @@
+/* container for section */
+.pricing-container{
+    padding: 10vmin 0;
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h2{
+        font-size: 2.5vmin;
+        line-height: 4vmin;
+        font-family: 'PPMori';
+    }
+    p{
+        font-size: 2.5vmin;
+        line-height: 4vmin;
+    }
+}
+
+/* space between upper and bottom sections */
+.pricing-note{
+    padding: 0 5vmin 10vmin 5vmin;
+}
+
+/* navbar + images & price */
+.pricing-flexbox{
+    display: flex;
+    flex-direction: row;
+    a, li{
+    font-size: 2.5vmin;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    }
+}
+
+/* right section ... images + price */
+.services-pricing{
+    height: 75vmin; 
+    width: 115vmin;
+  	overflow-y: auto;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    img{
+        height: 50vmin;
+        width: 50vmin;
+        margin-right: 14vmin;
+    }
+}
+
+/* vertically align navbar */
+.mini-nav a{
+    display: block;
+    line-height: 5vmin;
+    font-family: 'PPMori';
+}
+
+/* flexbox price */
+.price{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8vmin 0;
+    .price span{
+        font-size: 2.3vmin;
+    }
+}
+
+.pricing-flexbox li{
+    font-size: 2.5vmin;
+    padding: 1.7vmin 0;
+}
+
+/* ------------ HOVER effect on text for mini nav ------------------- */
+.mini-nav{
+    padding-top: 5vmin;
+    span {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+}
+.mini-nav span:before, .mini-nav span:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 0.2vmin;
+    top: 50%;
+}
+.mini-nav span:before {
+    left: -2.6px;
+}
+.mini-nav span:after {
+    right: 2.6px;
+    background: #e593b1;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.mini-nav span:hover:before {
+    background: #e593b1;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.mini-nav span:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+}
+
+@media only screen and (max-width: 1400px) {
+    .services-pricing{
+        width: 100vmin;
+        img{
+            height: 48vmin;
+            width: 46vmin;
+        }
+    }
+} 
+
+/* hides navbar when screen resized */
+@media only screen and (max-width: 1300px) {
+    .navbar-hide{
+        display: none;
+    }
+} 
+/* removes scrollable fetaure on mobile */
+@media only screen and (max-width: 700px) {
+    .services-pricing{
+        height: 100%;
+    }
+} 
+
+
