@@ -1,7 +1,9 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {}
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: "export",
+};
 
-// module.exports = nextConfig
+module.exports = nextConfig;
 
 const path = require("path");
 const withSass = require("@zeit/next-sass");
