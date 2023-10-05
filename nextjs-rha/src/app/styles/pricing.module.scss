@@ -1,7 +1,7 @@
 /* container for section */
 .pricing-container{
     padding: 10vmin 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--font-oswald);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,8 @@
     h2{
         font-size: 2.5vmin;
         line-height: 4vmin;
-        font-family: 'PPMori';
+        font-family: var(--font-montserrat);
+        font-weight: 500;
     }
     p{
         font-size: 2.5vmin;
@@ -46,13 +47,18 @@
         width: 50vmin;
         margin-right: 14vmin;
     }
+    span{
+        font-style: italic;
+        font-size: 2.3vmin;
+    }
 }
 
 /* vertically align navbar */
 .mini-nav a{
     display: block;
     line-height: 5vmin;
-    font-family: 'PPMori';
+    font-family: var(--font-montserrat);
+    font-weight: 500;
 }
 
 /* flexbox price */

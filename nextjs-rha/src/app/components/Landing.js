@@ -25,7 +25,7 @@ function Home() {
             height={319}
           />
           <Image
-            className={` ${styles.imageBottom} ${styles.floating}`}
+            className={` ${styles.imageBottom} ${styles.floating} ${styles.floatingTwo}`}
             priority
             src="/colorful-hair.png"
             alt="silver hair with colorful highlights"
