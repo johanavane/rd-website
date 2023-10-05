@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-
 .nav-container{
     background-color: #d2eccd;
     width: 100%;
     height: 8vmin;
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--font-oswald);
     font-size: 2.8vmin;
     padding: 4vmin 0 5vmin 0;
     text-align: center;

@@ -8,16 +8,16 @@ function Schedule() {
       <section className={` ${styles["schedule-box"]} ${styles["schedule"]}`}>
         <h2>New Clients</h2>
         <div>
-          {/* https://www.flaticon.com/free-icons/smile Smile icons created by Freepik - Flaticon */}
-          <p>Hello! Thank you for choosing me for your hair needs.</p>
+          <p>
+            Hi! I'm Rachel, an expert hair colorist based in Orange County.
+            Thank you for choosing me for your hair needs.
+          </p>
           <p>
             New clients, please schedule a 15-30 minute in-person consultation
-            for a personalized discussion about your hair.
+            for a personalized discussion about your hair. This will also help
+            me get to know you.
           </p>
-          <p>
-            This will also help me get to know you, I look forward to meeting
-            you!
-          </p>
+          <p>I look forward to meeting you!</p>
         </div>
       </section>
       {/* consulations box info ------------------- */}

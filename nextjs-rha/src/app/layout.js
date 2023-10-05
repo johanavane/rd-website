@@ -1,7 +1,23 @@
 import "./globals.css";
-import { Inter, Bagel_Fat_One } from "next/font/google";
+import { Bagel_Fat_One, Oswald, Montserrat } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
+const bagelFatOne = Bagel_Fat_One({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-bagelFatOne",
+});
+const oswald = Oswald({
+  subsets: ["latin"],
+  variable: "--font-oswald",
+  weight: ["300"],
+});
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  style: ["normal", "italic"],
+  variable: "--font-montserrat",
+  weight: ["400", "500"],
+});
 
 export const metadata = {
   title: "Orange County Hairstylist - Your Hair's Best Friend",
@@ -12,7 +28,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${bagelFatOne.variable} ${oswald.variable} ${montserrat.variable}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

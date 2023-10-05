@@ -1,11 +1,6 @@
-// @font-face {
-//     font-family: "PPMori";
-//     src: url("../fonts/PPMori-Regular.otf") format('truetype');
-// }
-  
 .services-container{
     background-color: #edf7eb;
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--font-oswald);
     padding: 7vmin 0;
     border-bottom-left-radius: 150px 60px;
     border-bottom-right-radius: 150px 60px;
